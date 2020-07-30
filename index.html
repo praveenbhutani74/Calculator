@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="calculator1.css">
+    <title></title>
+  </head>
+  <body>
+
+          <div style="width: 500px; padding: 25px; margin-left:370px; margin-top:100px; height:430px;background: linear-gradient(to right,#99ccff, #ff33cc);">
+            <div class="display">
+              <p id="display">0.0</p>
+            </div>
+            <div id="buttons">
+            <div>
+              <button id="9" class="button2" onclick="calculate('AC')">AC</button>
+              <button class="button2" onclick="calculate('DEL')">DEL</button>
+              <button class="button2" onclick="calculate('%')">%</button>
+              <button class="button2" onclick="calculate('/')">/</button>
+            </div>
+            <div>
+              <button class="button" onclick="calculate('7')">7</button>
+              <button class="button" onclick="calculate('8')">8</button>
+              <button class="button" onclick="calculate('9')">9</button>
+              <button class="button2" onclick="calculate('*')"> *</button>
+            </div>
+            <div>
+              <button class="button" onclick="calculate('4')">4</button>
+              <button class="button" onclick="calculate('5')">5</button>
+              <button class="button" onclick="calculate('6')">6</button>
+              <button class="button2" onclick="calculate('-')">-</button>
+            </div>
+            <div>
+              <button class="button" onclick="calculate('1')">1</button>
+              <button class="button" onclick="calculate('2')">2</button>
+              <button class="button" onclick="calculate('3')">3</button>
+              <button class="button2" onclick="calculate('+')">+</button>
+            </div>
+            <div>
+              <button class="button3" onclick="calculate('0')">0</button>
+              <button class="button3" onclick="calculate('.')">.</button>
+              <button class="button1" onclick="calculate('=')">=</button>
+
+            </div>
+</div>
+          </div>
+
+        <script src="calculator1.js"></script>
+  </body>
+</html>
